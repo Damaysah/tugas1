@@ -9,7 +9,7 @@
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
-body {
+/* body {
   font-family: "Open Sans", sans-serif;
   color: #272829;
 }
@@ -31,12 +31,12 @@ h4,
 h5,
 h6 {
   font-family: "Raleway", sans-serif;
-}
+} */
 
 /*--------------------------------------------------------------
 # Back to top button
 --------------------------------------------------------------*/
-.back-to-top {
+/* .back-to-top {
   position: fixed;
   visibility: hidden;
   opacity: 0;
@@ -64,12 +64,12 @@ h6 {
 .back-to-top.active {
   visibility: visible;
   opacity: 1;
-}
+} */
 
 /*--------------------------------------------------------------
 # Header
 --------------------------------------------------------------*/
-#header {
+/* #header {
   position: fixed;
   top: 0;
   left: 0;
@@ -151,13 +151,13 @@ h6 {
     padding-left: 12px;
     padding-right: 12px;
   }
-}
+} */
 
 /*--------------------------------------------------------------
 # Navigation Menu
 --------------------------------------------------------------*/
 /* Desktop Navigation */
-.nav-menu {
+/* .nav-menu {
   padding: 30px 0 0 0;
 }
 
@@ -203,10 +203,10 @@ h6 {
 .nav-menu .active:focus i,
 .nav-menu li:hover>a i {
   color: #149ddd;
-}
+} */
 
 /* Mobile Navigation */
-.mobile-nav-toggle {
+/* .mobile-nav-toggle {
   position: fixed;
   right: 15px;
   top: 15px;
@@ -233,12 +233,12 @@ h6 {
 
 .mobile-nav-active #header {
   left: 0;
-}
+} */
 
 /*--------------------------------------------------------------
 # Hero Section
 --------------------------------------------------------------*/
-#hero {
+/* #hero {
   width: 100%;
   height: 100vh;
   background: url("../img/hero-bg.jpg") top center;
@@ -301,12 +301,12 @@ h6 {
     line-height: 24px;
     margin-bottom: 30px;
   }
-}
+} */
 
 /*--------------------------------------------------------------
 # Sections General
 --------------------------------------------------------------*/
-section {
+/* section {
   padding: 60px 0;
   overflow: hidden;
 }
@@ -341,12 +341,12 @@ section {
 
 .section-title p {
   margin-bottom: 0;
-}
+} */
 
 /*--------------------------------------------------------------
 # About
 --------------------------------------------------------------*/
-.about .content h3 {
+/* .about .content h3 {
   font-weight: 700;
   font-size: 26px;
   color: #173b6c;
@@ -376,12 +376,12 @@ section {
 
 .about .content p:last-child {
   margin-bottom: 0;
-}
+} */
 
 /*--------------------------------------------------------------
 # Facts
 --------------------------------------------------------------*/
-.facts {
+/* .facts {
   padding-bottom: 30px;
 }
 
@@ -427,12 +427,12 @@ section {
 
 .facts .count-box a:hover {
   color: #1f5297;
-}
+} */
 
 /*--------------------------------------------------------------
 # Akills
 --------------------------------------------------------------*/
-.skills .progress {
+/* .skills .progress {
   height: 60px;
   display: block;
   background: none;
@@ -464,12 +464,12 @@ section {
   height: 10px;
   transition: 0.9s;
   background-color: #149ddd;
-}
+} */
 
 /*--------------------------------------------------------------
 # Resume
 --------------------------------------------------------------*/
-.resume .resume-title {
+/* .resume .resume-title {
   font-size: 26px;
   font-weight: 700;
   margin-top: 20px;
@@ -525,12 +525,12 @@ section {
   top: 0;
   background: #fff;
   border: 2px solid #1f5297;
-}
+} */
 
 /*--------------------------------------------------------------
 # Portfolio
 --------------------------------------------------------------*/
-.portfolio .portfolio-item {
+/* .portfolio .portfolio-item {
   margin-bottom: 30px;
 }
 
@@ -626,12 +626,12 @@ section {
 .portfolio .portfolio-wrap:hover .portfolio-links {
   opacity: 1;
   bottom: 0;
-}
+} */
 
 /*--------------------------------------------------------------
 # Portfolio Details
 --------------------------------------------------------------*/
-.portfolio-details {
+/* .portfolio-details {
   padding-top: 40px;
 }
 
@@ -691,12 +691,12 @@ section {
 
 .portfolio-details .portfolio-description p {
   padding: 0;
-}
+} */
 
 /*--------------------------------------------------------------
 # Services
 --------------------------------------------------------------*/
-.services .icon-box {
+/* .services .icon-box {
   margin-bottom: 20px;
 }
 
@@ -746,12 +746,12 @@ section {
   margin-left: 80px;
   line-height: 24px;
   font-size: 14px;
-}
+} */
 
 /*--------------------------------------------------------------
 # Testimonials
 --------------------------------------------------------------*/
-.testimonials .testimonials-carousel,
+/* .testimonials .testimonials-carousel,
 .testimonials .testimonials-slider {
   overflow: hidden;
 }
@@ -838,12 +838,12 @@ section {
 
 .testimonials .swiper-pagination .swiper-pagination-bullet-active {
   background-color: #149ddd;
-}
+} */
 
 /*--------------------------------------------------------------
 # Contact
 --------------------------------------------------------------*/
-.contact {
+/* .contact {
   padding-bottom: 130px;
 }
 
@@ -1022,12 +1022,12 @@ section {
   100% {
     transform: rotate(360deg);
   }
-}
+} */
 
 /*--------------------------------------------------------------
 # Breadcrumbs
 --------------------------------------------------------------*/
-.breadcrumbs {
+/* .breadcrumbs {
   padding: 20px 0;
   background: #f9f9f9;
 }
@@ -1069,12 +1069,12 @@ section {
   .breadcrumbs ol li {
     display: inline-block;
   }
-}
+} */
 
 /*--------------------------------------------------------------
 # Footer
 --------------------------------------------------------------*/
-#footer {
+/* #footer {
   padding: 15px;
   color: #f4f6fd;
   font-size: 14px;
@@ -1103,4 +1103,8 @@ section {
     width: auto;
     padding-right: 20px 15px;
   }
+} */
+
+body {
+  background-color: lightblue;
 }

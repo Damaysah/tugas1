@@ -16,9 +16,27 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('layouts/index');
 });
+
+Route::get('/about', function () {
+    return view('about',[
+        "nama" => "Damaysah Kiki",
+        "email" => "damaysah@gmail.com",
+        "gambar" => "profile-img.jpg"
+    ]);
+});
+
 Route::get('/nama', function () {
     return ('Damaysah Kiki');
 });
+
 Route::get('/nim', function () {
     return ('21.31.0011');
+});
+
+Route::get('/home', function () {
+    return view('home');
+});
+
+Route::get('/blog', function () {
+    return view('blog');
 });
